@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .flex__center {
+    @apply flex justify-center items-center text-center;
+  }
+
+  .hw__100 {
+    @apply h-full w-full;
+  }
+}
